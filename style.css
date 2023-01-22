@@ -22,26 +22,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.nav {
+.header {
     background-color: grey;
     padding: 10px;
     display: flex;
 }
 
-.fix:before,
+/* .fix:before,
 .fix:after {
     clear: both;
     content: "";
     display: table;
-}
+} */
 
 .layout {
-    width: 100px;
+    width: 1200px;
     margin: 0 auto;
 }
 
 .logo {
-    width: 50px;
+    width: 70px;
     float: left;
     margin: 30px;
 }
@@ -127,20 +127,56 @@ p {
     }
 }
 
+
+.SA {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text {
+    font-size: 30px;
+}
+
+/* our service Css */
+.title h2 {
+    text-align: center;
+    margin: 30px 0;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.single-sarvice {
+    width: 320px;
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background-color: #ddd;
+    padding: 30px;
+    margin-right: 10px;
+}
+
+.single-service h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+/* #last-child {
+    margin-right: 0 !important;
+} */
+
+/* footer  */
 .footer {
-    margin-top: 5px;
+    margin-top: 700px;
     text-align: center;
     /* width: 100%;
     height: 70px; */
     padding: 30px;
     background-color: black;
     color: white;
-}
-.SA{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 10px;
-}
-.text {
-    font-size: 30px;
 }
